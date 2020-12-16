@@ -10,10 +10,32 @@ body {
   max-width: 1150px;
   margin: 0 auto; }
 
-.header__block {
-  max-width: 1117px;
-  height: 840px;
-  background: #F4F9E2; }
+.header__inner {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+.header__logo {
+  font-size: 24px;
+  line-height: 26px;
+  color: #62D0DF;
+  font-weight: 700; }
+.header__menu a {
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+  color: #22356F; }
+.header__button {
+  width: 150px;
+  background: #62D0DF;
+  border-radius: 50px;
+  text-align: center;
+  padding: 13px; }
+.header .button {
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFF;
+  text-decoration: none; }
 
 @font-face {
   font-family: 'Larsseit';

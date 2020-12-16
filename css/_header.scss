@@ -1,7 +1,41 @@
-.header__block {
-  max-width: 1117px;
-  height: 840px;
-  background: #F4F9E2;
+.header {
 
+  &__inner {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
+  &__logo {
+    font-size: 24px;
+    line-height: 26px;
+    color: #62D0DF;
+    font-weight: 700;
+  }
+
+  &__menu {
+
+    a {
+      font-size: 14px;
+      line-height: 16px;
+      text-decoration: none;
+      color: #22356F;
+    }
+  }
+
+  &__button {
+    width: 150px;
+    background: #62D0DF;
+    border-radius: 50px;
+    text-align: center;
+    padding: 13px;
+  }
+
+  .button {
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFF;
+    text-decoration: none;
+  }
 }
